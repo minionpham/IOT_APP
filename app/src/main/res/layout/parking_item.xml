@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:gravity="center"
+    android:layout_margin="8dp">
+    <!-- Rectangle representing the parking slot -->
+    <LinearLayout
+        android:id="@+id/parking_container"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:background="@color/default_color"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+    <!-- Parking Name in the center -->
+    <TextView
+        android:id="@+id/parking_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parking Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center" />
+</LinearLayout>
+</LinearLayout>

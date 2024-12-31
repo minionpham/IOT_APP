@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Hiệu ứng khi nhấn -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#388E3C" />
+            <corners android:radius="40dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#1B5E20" />
+        </shape>
+    </item>
+    <!-- Trạng thái mặc định -->
+    <item>
+        <shape>
+            <solid android:color="#4CAF50" />
+            <corners android:radius="40dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#2E7D32" />
+        </shape>
+    </item>
+</selector>

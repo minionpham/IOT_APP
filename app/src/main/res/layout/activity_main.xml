@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarmain"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#EDEAE6"/>
+        <fragment
+            android:id="@+id/fragment_parking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.iot_app.ParkingFragment"
+            tools:layout="@layout/fragment_parking" />
+        <fragment
+            android:id="@+id/fragment_users"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.iot_app.ListUserFragment"
+            tools:layout="@layout/fragment_list_user" />
+
+
+</LinearLayout>
